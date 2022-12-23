@@ -46,6 +46,7 @@ public class FileUtils {
         }
         byte[] buf = new byte[1024];
         int len;
+        //这个地方循环读块
         while (-1 != (len = src.read(buf))) {
             randomAccessFile.write(buf,0,len);
         }

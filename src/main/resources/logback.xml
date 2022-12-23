@@ -23,6 +23,7 @@ debug:当此属性设置为true时，将打印出logback内部日志信息，实
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
+
     <!-- 文件输出：file -->
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>log/logback.log</file>
