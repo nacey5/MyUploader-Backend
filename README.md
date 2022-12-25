@@ -3,6 +3,8 @@
 > 
 > 前端项目地址： [https://github.com/gaoyuyue/MyUploader](https://github.com/gaoyuyue/MyUploader)
 
+一般的处理文件都可以用这个来处理
+
 # 简介
 采用前后端分离的方式进行开发，实现了几种常用的文件上传功能。 前端采用 vue.js + plupload + element-ui 实现了文件在浏览器端的发送, 后端采用 spring boot + spring + spring mvc + mybatis 实现了文件在服务器端的接收和存储。
 
